@@ -10,12 +10,13 @@ body {
   width: 50%;
   border: #1f211f48 1px solid;
 }
+
 /* login button hover state */
 .rounded-pill:hover {
-  background-color: #1bd103;
+  background-color: #190AC2;
 }
 .rounded-pill {
-  background-color: #108a00;
+  background-color: #190AC2;
   border: none;
   width: 20rem;
   font-weight: bold;
