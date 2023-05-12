@@ -1,0 +1,9 @@
+p {
+  font-size: 14px;
+}
+/* responsive styles */
+@media (max-width: 575.98px) {
+  .signinCard {
+    border: 0px #fff solid;
+  }
+}

@@ -1,0 +1,13 @@
+p {
+  font-size: 14px;
+}
+.user-icon {
+  width: 25px;
+  position: absolute;
+}
+/* responsive styles */
+@media (max-width: 575.98px) {
+  .signinCard {
+    border: 0px #fff solid;
+  }
+}
