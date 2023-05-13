@@ -1,11 +1,10 @@
 import React from 'react'
-import Presigin from './components/Presigin';
-import SignUp from './components/signup';
-import SignIn from './components/SignIn';
+import ActivateScreen from './components/Activate';
+import Presigin from "./components/Presigin.js"
 
 const App = () => {
   return (
-    <SignIn />
+    <Presigin />
     // <SignUp />
   );
 }

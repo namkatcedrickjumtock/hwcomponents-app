@@ -13,13 +13,12 @@ body {
 
 /* login button hover state */
 .rounded-pill:hover {
-  background-color: #190AC2;
+  background-color: #200fdf;
 }
 .rounded-pill {
-  background-color: #190AC2;
+  background-color: #190ac2;
   border: none;
   width: 20rem;
-  font-weight: bold;
   outline: none;
 }
 .rounded-pill:disabled {
@@ -34,9 +33,18 @@ body {
 }
 
 /* presign in  cards */
-.presigninCards:hover {
+.presigninCards {
   cursor: pointer;
   border: #108a00 1px solid;
+}
+
+#customRadio1 {
+  left: 9px;
+  top: 5px;
+  height: 15px;
+  width: 15px;
+  border: 2px rgb(140, 129, 129) solid;
+  border-width: 0 3px 3px 0;
 }
 
 /* responsive design */
@@ -75,8 +83,6 @@ body {
   }
   .main-container {
     width: 100%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     border: #ffffff 1px solid;
   }
