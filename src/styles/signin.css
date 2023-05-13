@@ -2,12 +2,32 @@ p {
   font-size: 14px;
 }
 .user-icon {
-  width: 25px;
+  width: 20px;
+  left: 20px;
+  top: 55px;
   position: absolute;
 }
-/* responsive styles */
+
+/* responsive design */
+/*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .signinCard {
-    border: 0px #fff solid;
+  button{
+    width: 100%;
   }
+  
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
