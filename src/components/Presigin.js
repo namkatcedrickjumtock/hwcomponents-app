@@ -17,12 +17,11 @@ const Presigin = () => {
     const [userType, setUserType] = useState("Create Account")
     return (
         <>
-            <Container className='wrapper'>
-                <Header />
+            <Container className='wrapper vh-100 d-flex  align-items-center'>
                 {/* main container */ }
                 <Container className='my-4   main-container'>
                     <h3 className='text-center py-4 fs-4 '>Join as a client or freelancer</h3>
-                    <Row className='d-flex justify-content-around p-4'>
+                    <Row className='d-flex justify-content-around'>
                         <Col xs={ 12 } md={ 6 }  >
                             <Card style={ { width: '13rem' } } className={ `${userType == "Apply as a Freelancer" ? "presigninCards mb-3" : "mb-3"}` } onClick={ () => {
                                 setDisable(false)
