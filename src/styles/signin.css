@@ -1,20 +1,34 @@
-p {
-  font-size: 14px;
+button {
+  font-size: 12px;
+  cursor: pointer;
 }
-.user-icon {
-  width: 20px;
-  left: 20px;
-  top: 55px;
-  position: absolute;
+.logIcon {
+  top: 5px;
+  left: -6rem;
 }
-
 /* responsive design */
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  button{
+  .container {
+    /* overflow: hidden; */
     width: 100%;
+    margin: 0px;
+    padding: 0%;
   }
-  
+a{
+  padding:5px 2px;
+}
+  .logIcon {
+    top: 5px;
+    left: -2rem;
+  }
+
+  button {
+    font-size: 12px;
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+  }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {

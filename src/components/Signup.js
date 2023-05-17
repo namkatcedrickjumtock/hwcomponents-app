@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles/signup.css"
-
 import { Col, Button, Row, Container, Card, Form } from "react-bootstrap";
 
 const SignUp = () => {
@@ -23,6 +22,7 @@ const SignUp = () => {
                                                 <Form.Group as={ Col } controlId="formGridPassword">
                                                     <Form.Control type="text" placeholder="Last Name" className='shadow-none' size="sm" />
                                                 </Form.Group>
+
                                             </Row>
 
                                             <Form.Group className="mb-3" controlId="formGridAddress2">
@@ -33,7 +33,6 @@ const SignUp = () => {
                                             </Form.Group>
                                             <Form.Group as={ Col } controlId="formGridState">
                                                 <Form.Select defaultValue="Choose..." className='shadow-none' size="sm">
-                                                    <option>Cameroon</option>
                                                     <option>USA</option>
                                                 </Form.Select>
                                             </Form.Group>
@@ -46,7 +45,7 @@ const SignUp = () => {
                                         </Form.Check>
                                         <Form.Check type='checkbox' className='mb-4'>
                                             <Form.Check.Input type='checkbox' />
-                                            <Form.Check.Label className='text-sm'>Yes, I understand and agree to the <a href='#'>HourWorth Terms of Service </a>, including the <a href='#'>User Agreement</a> and <a href='#'>Privacy Policy</a> .</Form.Check.Label>
+                                            <Form.Check.Label className='text-sm' id='terms'>Yes, I understand and agree to the <a href='#'>Hourworth Terms of Service </a>, including the <a href='#'>User Agreement</a> and <a href='#'>Privacy Policy</a> .</Form.Check.Label>
                                         </Form.Check>
 
                                         <Button className='rounded-pill w-75 mb-4 mx-auto d-block' type="submit">

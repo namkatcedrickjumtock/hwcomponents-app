@@ -3,7 +3,10 @@ a {
   font-size: 12px;
   text-decoration: none;
 }
-
+.icon{
+  width: 1rem;
+  height: 1rem;
+}
 .rounded-pill {
   background-color: #0b008a;
   border: none;
@@ -22,6 +25,11 @@ a {
 /* responsive design */
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
   .rounded-pill {
     border: none;
     outline: none;
