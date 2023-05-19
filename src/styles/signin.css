@@ -2,32 +2,33 @@ button {
   font-size: 12px;
   cursor: pointer;
 }
-.logIcon {
-  top: 5px;
-  left: -6rem;
+
+.signin-container {
+  flex-direction: column;
+}
+/* login button hover state */
+.signin-btn:hover {
+  background-color: #200fdf;
+}
+.signin-btn {
+  background-color: #190ac2;
+  border: none;
+  width: 20rem;
+  outline: none;
 }
 /* responsive design */
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .container {
+  .signin-container {
     /* overflow: hidden; */
     width: 100%;
     margin: 0px;
     padding: 0%;
   }
-a{
-  padding:5px 2px;
-}
+  
   .logIcon {
     top: 5px;
     left: -2rem;
-  }
-
-  button {
-    font-size: 12px;
-    margin: 0%;
-    padding: 0%;
-    cursor: pointer;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
@@ -44,4 +45,9 @@ a{
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+}
+
+.logIcon {
+  top: 5px;
+  left: -2rem;
 }

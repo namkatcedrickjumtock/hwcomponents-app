@@ -2,26 +2,26 @@
 
 body {
   font-family: "DM Sans", sans-serif;
-  background-color: white;
 }
 
-.main-container {
+.presignin-container {
   border-radius: 1rem;
   width: 50%;
+  flex-direction: column;
   border: #1f211f48 1px solid;
 }
 
 /* login button hover state */
-.rounded-pill:hover {
+.presignin-btn:hover {
   background-color: #200fdf;
 }
-.rounded-pill {
+.presignin-btn {
   background-color: #190ac2;
   border: none;
   width: 20rem;
   outline: none;
 }
-.rounded-pill:disabled {
+.presignin-btn:disabled {
   background-color: #e4ebe4;
   color: gray;
 }
@@ -50,82 +50,16 @@ body {
 /* responsive design */
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .wrapper {
-    overflow: hidden;
-  }
-  .main-container {
-    width: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  .presignin-container {
     border: #ffffff 1px solid;
-  }
-  .main-container h3 {
-    text-align: end;
-    margin: 0%;
-    padding: 0;
-  }
-  /* login button */
-  .rounded-pill {
-    margin: 0;
-    width: 14rem;
-  }
-  .rounded-pill:disabled {
-    margin: 0;
-    padding: 0%;
   }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .wrapper {
-    overflow: hidden;
-  }
-  .main-container {
-    width: 100%;
-    align-items: center;
-    border: #ffffff 1px solid;
-  }
-  .main-container h3 {
-    text-align: end;
-    margin: 0%;
-    padding: 0;
-  }
-  /* login button */
-  .rounded-pill {
-    margin: 0;
-    width: 14rem;
-  }
-  .rounded-pill:disabled {
-    margin: 0;
-    padding: 0%;
-  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .wrapper {
-    overflow: hidden;
-  }
-  .main-container {
-    margin: mx-auto;
-    justify-content: space-between;
-    border: #ffffff 1px solid;
-  }
-  .main-container h3 {
-    text-align: end;
-    margin: 0%;
-    padding: 0;
-  }
-  /* login button */
-  .rounded-pill {
-    margin: 0;
-    width: 14rem;
-  }
-  .rounded-pill:disabled {
-    margin: 0;
-    padding: 0%;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */

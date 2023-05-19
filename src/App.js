@@ -11,7 +11,8 @@ const App = () => {
   return (
     <>
       <Header />
-      <ConfirmAcivation />
+      {/*  */}
+      <Verification />
     </>
   );
 }

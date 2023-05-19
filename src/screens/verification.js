@@ -16,7 +16,7 @@ const Verification = () => {
                 <Form.Control type='password' placeholder=" * * * *" className='shadow-none text-center' size="sm" />
             </Form.Group>
 
-            <Button className='rounded-pill w-50 mb-4 mx-auto d-block text-nowrap' type="submit">
+            <Button className='rounded-pill w-50 mb-4 mx-auto d-block vrftn-btn text-nowrap' type="submit">
                 Activate
                 <ShieldCheckIcon className='icon mx-2' />
             </Button>

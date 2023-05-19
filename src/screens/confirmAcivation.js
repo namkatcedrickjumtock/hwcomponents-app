@@ -16,7 +16,7 @@ const ConfirmAcivation = () => {
                 <Form.Control type='password' placeholder=" * * * *" className='shadow-none text-center' size="sm" />
             </Form.Group>
 
-            <Button className='rounded-pill w-50 mb-4 mx-auto fw-bold d-block text-nowrap' type="submit">
+            <Button className='rounded-pill cnfrm-btn w-50 mb-4 mx-auto fw-bold d-block text-nowrap' type="submit">
                 Log in
             </Button>
         </Container>

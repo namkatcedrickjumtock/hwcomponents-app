@@ -2,7 +2,19 @@
   flex-direction: column;
   padding: 10rem;
 }
-
+.vrftn-btn {
+  background-color: #0b008a;
+  border: none;
+  font-weight: 500;
+  outline: none;
+}
+.vrftn-btn:hover {
+  background-color: #0e00a7;
+  border: none;
+  width: 20rem;
+  font-weight: 500;
+  outline: none;
+}
 /* responsive design */
 /*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -12,7 +24,6 @@
     margin: 0px;
     padding: 0%;
   }
-  
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
