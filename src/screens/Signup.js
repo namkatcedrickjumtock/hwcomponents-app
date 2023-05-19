@@ -18,13 +18,10 @@ const SignUp = () => {
                                                 <Form.Group as={ Col } controlId="formGridEmail">
                                                     <Form.Control type="text" placeholder="First Name" className='shadow-none' size="sm" />
                                                 </Form.Group>
-
                                                 <Form.Group as={ Col } controlId="formGridPassword">
                                                     <Form.Control type="text" placeholder="Last Name" className='shadow-none' size="sm" />
                                                 </Form.Group>
-
                                             </Row>
-
                                             <Form.Group className="mb-3" controlId="formGridAddress2">
                                                 <Form.Control type="email" placeholder="Email" className='shadow-none' size="sm" />
                                             </Form.Group>
@@ -36,8 +33,6 @@ const SignUp = () => {
                                                     <option>USA</option>
                                                 </Form.Select>
                                             </Form.Group>
-
-
                                         </Form>
                                         <Form.Check type='checkbox' className='mt-4 mb-4'>
                                             <Form.Check.Input type='checkbox' />
@@ -47,7 +42,6 @@ const SignUp = () => {
                                             <Form.Check.Input type='checkbox' />
                                             <Form.Check.Label className='text-sm' id='terms'>Yes, I understand and agree to the <a href='#'>Hourworth Terms of Service </a>, including the <a href='#'>User Agreement</a> and <a href='#'>Privacy Policy</a> .</Form.Check.Label>
                                         </Form.Check>
-
                                         <Button className='rounded-pill w-75 mb-4 mx-auto d-block' type="submit">
                                             Create my account
                                         </Button>

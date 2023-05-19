@@ -8,6 +8,7 @@
 @media (max-width: 575.98px) {
     #img{
         max-width: 8rem;
+        padding: 10px;
         max-height: 5rem;
     }
 

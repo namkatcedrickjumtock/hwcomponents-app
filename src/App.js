@@ -4,12 +4,14 @@ import Presigin from "./screens/Presigin.js"
 import SignUp from './screens/Signup';
 import SignIn from './screens/SignIn';
 import Header from './components/Header';
+import Verification from './screens/verification';
+import ConfirmAcivation from './screens/confirmAcivation';
 
 const App = () => {
   return (
     <>
       <Header />
-      <Presigin />
+      <ConfirmAcivation />
     </>
   );
 }
